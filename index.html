@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Progress bar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- responsive -->
+    <table class="horizontal-progressbar">
+
+        <!-- circles and counter at the top -->
+        <!-- first item in counter does not have a span element -->
+
+        <!-- 
+            //css classes
+
+            completed-step - previous steps
+            current-step - currently active page/tab
+            next-step - not completed
+         -->
+
+        <tr class="counter">
+            <td class="progress-item completed-step">
+                <div></div>
+            </td>
+            <td class="progress-item current-step">
+                <div></div>
+                <span></span>
+            </td>
+            <td class="progress-item next-step">
+                <div></div>
+                <span></span>
+            </td>
+            <td class="progress-item next-step">
+                <div></div>
+                <span></span>
+            </td>
+            <td class="progress-item next-step">
+                <div></div>
+                <span></span>
+            </td>
+        </tr>
+
+          <!-- descriptions below the counters -->
+        <tr class="descriptions">
+            <td class="completed-step">Step 1</td>
+            <td class="current-step">Step 2</td>
+            <td class="next-step">Step 3</td>
+            <td class="next-step">Step 4</td>
+            <td class="next-step">Step 5</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
